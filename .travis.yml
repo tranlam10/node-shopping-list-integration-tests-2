@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: aHSorAN3kUmhXTEeeN63+TX1rtetAFnhGlXi9nFG9eo9TbUomby4kCsRhhaow60DCinpN7Gqi7RGKNwoZV5qYWK3Rx6Q6AT2b4obijLMKradoDqOT/8/A1ipE+DsOQC+b53joHThZukCCgPiX/1qC7E1aQRYtMw+Et6hu+BGB0KYNb0TCnGj+BOkrONV/34xeQu1rlPUHkUt9tJp6bkOteQUtToTXaGDj6Lkv6Jq0HxZBtx4PcQB+TpTwzH1vssxjw1AqguzrkWZjsQnJK6QqZmxmDplb7iLqb75/XHyb/MxcHd/pz1P4neKdwTHyRr1dLF9PehiOH0el8RMjw8ihSwUtyEHJdGmVzjen9WmGO0rj0eU9GEFC9pTSeaH+3XyZb1raJYGLCC41alz70PNGUSDNydED4GBcp8uCaeQeOyRkmtke5/qcQZIFQHex0Or+QOEln3dVUQMopiQXraulKloPbGf8HjLmR0PK7J+0BZ729HrGWG/pG9XkFPe5O9MYs921Hl0HiZbSb7BSW6nMkyxZ+vIxsAqG0u5Lz9NvjSONwHUXRMG4Fh+a/NBIypHm2fI5je+aiXuiDCnjuJ4rojErWdVLhRdpq2zo6C041ALPL+4oQJRONTLpp7cKakmZaN0d9R2x9PL/Fv+wm/TUNtKz0LmQpPf3UYTrVmA/cU=
+  app: cryptic-harbor-24645
+  on:
+    repo: tranlam10/node-shopping-list-integration-tests-2
